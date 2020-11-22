@@ -1,0 +1,45 @@
+
+body{
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100vw;
+}
+.app{
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: turquoise;
+}
+.center{
+    margin: auto;
+    width: 50%;
+}
+.title{
+    font-weight: bold;
+    margin: 20px;
+    font-size: 45px;
+}
+.label-adc{
+    margin-bottom: 10px;
+}
+.list{
+    width: 80%;
+    text-align: justify;
+    font-size: 20px;
+}
+  li{
+      list-style-type: none;
+      background-color: lavender;
+      border-radius: 10px;
+      padding: 10px;
+      margin-bottom: 2px;
+      font-size: 16px;
+  }
+  li ::first-letter{
+      text-transform: uppercase;
+  }
+  input[type=checkbox]:checked + label.strike{
+      text-decoration: line-through;
+  }
